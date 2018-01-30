@@ -3,6 +3,47 @@
 }
 
 /*** Login ***/
-.password-forgotten {
+.txt08 {
   font-size: .8em;
+}
+
+#entrar {
+  background: linear-gradient(-160deg, #FDA634, #ff652c);
+  border: none;
+  color: white;
+  text-decoration: none;
+}
+
+/*** Newsfeed ***/
+.mr-8 {
+  margin-right: 8em;
+}
+
+.h-2 {
+  height: 2em
+}
+
+.navbar-brand {
+  margin-right: 0 !important;
+}
+
+.profile {
+  border-radius: 50%;
+}
+
+.mleft-2 {
+  margin-left: -2em;
+}
+
+.icon-color {
+  color: #ff652c;
+}
+
+/*** FOOTER ***/
+.footer-height {
+  height: 2.5em;
+}
+
+.icon-gray {
+  color: #696969;
 }
