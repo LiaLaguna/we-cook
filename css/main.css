@@ -8,7 +8,7 @@
 }
 
 #entrar {
-  background: linear-gradient(-160deg, #FDA634, #ff652c);
+  background: linear-gradient(-160deg, #ff652c, #FDA634);
   border: none;
   color: white;
   text-decoration: none;
@@ -21,6 +21,10 @@
 
 .h-2 {
   height: 2em
+}
+
+.w-45 {
+  width: 45%;
 }
 
 .navbar-brand {
@@ -46,4 +50,5 @@
 
 .icon-gray {
   color: #696969;
+  cursor: pointer;
 }
