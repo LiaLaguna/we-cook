@@ -38,4 +38,22 @@ Después de crear el prototipo, se mostró a los usuarios y checamos si nuestras
 Después de haber sido validado, se procede a la implementación, con los siguientes puntos:
 1. Diseño visual:
   - Se propone manejar una interfaz minimalista ya que pueden hacer múltiples tareas con un diseño limpio y con menos pasos.
-  - Usar el naranja para la identidad de la marca, ya que este es un color energético y cálido. Combina el poder del rojo y la amabilidad del amarillo, por lo que puede traer sentimientos de motivación y entusiasmo, así como dan espíritu de creatividad y aventura. Justo lo que WE COOK busca representar. 
+  - Usar el naranja para la identidad de la marca, ya que este es un color energético y cálido. Combina el poder del rojo y la amabilidad del amarillo, por lo que puede traer sentimientos de motivación y entusiasmo, así como dan espíritu de creatividad y aventura. Justo lo que WE COOK busca representar.
+
+En base a eso se implementan los siguientes colores:
+- ![#ff652c](https://placehold.it/15/ff652c/000000?text=+) `#ff652c`
+- ![#FDA634](https://placehold.it/15/fda634/000000?text=+) `#FDA634`
+
+El logo:
+![logo](assets/brand/wecook-solid.svg)
+
+Tipografía: Montserrat 
+
+Sketch:
+![login](assets/sketch/login.jpg)
+![newsfeed](assets/sketch/newsfeed.jpg)
+![profile](assets/sketch/profile.jpg)
+![profile-colecciones](assets/sketch/profile-colecciones.jpg)
+![profile-following](assets/sketch/following.jpg)
+![profile-followers](assets/sketch/followers.jpg)
+![profile-friend](assets/sketch/profile-friend.jpg)
