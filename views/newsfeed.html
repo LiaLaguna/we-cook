@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="mleft-2">
-        <a href="../views/profile.html"><img src="../assets/images/user-picture.jpg" width="30" height="30" alt="" class="profile"></a> 
+        <a href="../views/profile.html"><img src="../assets/images/user-picture.jpg" width="30" height="30" alt="" class="profile"></a>
       </div>
     </nav>
 
@@ -52,21 +52,29 @@
       <div class="row">
         <div class="col-12 mt-1">
           <p class="txt08 mb-0">A <strong>Usuario1</strong>, <strong>Usuario2</strong> les gusta esto</p>
+          <label for="exampleFormControlTextarea1" class="txt08"><strong>John Roe </strong>Chilaquiles</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-8">
           <form>
             <div class="form-group">
-              <label for="exampleFormControlTextarea1" class="txt08"><strong>Jane Doe </strong>Chilaquiles</label>
-              <textarea class="form-control txt08 message" id="exampleFormControlTextarea1" rows="1" placeholder="Escribe un comentario..."></textarea>
+              <textarea class="form-control txt08 comment" id="exampleFormControlTextarea1" rows="1" placeholder="Escribe un comentario..."></textarea>
             </div>
           </form>
         </div>
-      </div>
-      <div class="row mt-1">
-        <div class="col-12">
-          <p class="txt08 mb-0">
-            Comentario prueba
-          </p>
+        <div class="col-4">
+          <button type="submit" class="btn btn-primary txt08 btn-send" id="post">Publicar</button>
         </div>
       </div>
+    </div>
+
+    <div id="comments-feed" class="mt-2minus">
+      <div class="row ml-2">
+        <div class="col-12">
+          <p class="txt08 mb-0">Primer comentario! :)</p>
+        </div>
+       </div>
     </div>
 
     <!-- POST -->
@@ -96,7 +104,7 @@
           <p class="txt08 mb-0">A <strong>Usuario1</strong>, <strong>Usuario2</strong> les gusta esto</p>
           <form>
             <div class="form-group">
-              <label for="exampleFormControlTextarea1" class="txt08"><strong>Jane Doe </strong>Pizza casera</label>
+              <label for="exampleFormControlTextarea1" class="txt08"><strong>John Doe </strong>Pizza casera</label>
               <textarea class="form-control txt08" id="exampleFormControlTextarea1" rows="1" placeholder="Escribe un comentario..."></textarea>
             </div>
           </form>

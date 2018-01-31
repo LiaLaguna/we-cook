@@ -1,36 +1,28 @@
 $(document).ready(function(){
-  var message = $('.message').val();
-  console.log(message);
 
+  $('.btn-send').click(paintCommentInHtml);
 
+// Función para mostrar comentarios
+  function paintCommentInHtml(e){
+    e.preventDefault();
 
-  /*
-  $(".splash").show();
-  $(".splash").fadeOut(4000);
-  //$(".splash").hide();
+    // Tomando valor del input y poniéndolo en una variable
+    var $newComment = $(".comment").val();
 
+    // Creando elementos con DOM
+    var $commentRow = $('<div />', {'class' : 'row ml-2 mt-1'});
+    var $commentCol = $('<div />', {'class' : 'col-12'});
+    var $commentText = $('<p />', {'class' : 'txt08 mb-0'});
 
-/* Función para añadir mapa
-  $(function () {
+    // Asignando valores
+    $commentText.text($newComment);
+    $commentCol.append($commentText);
+    $commentRow.append($commentCol);
+    $('#comments-feed').append($commentRow);
 
-      function initMap() {
+    // Limpiando valores del form
+    $(".comment").val(" ");
 
-          var location = new google.maps.LatLng(19.434573, -99.195612);
-
-          var mapCanvas = document.getElementById('map');
-          var mapOptions = {
-              center: location,
-              zoom: 16,
-              panControl: false,
-              mapTypeId: google.maps.MapTypeId.ROADMAP
-          }
-          var map = new google.maps.Map(mapCanvas, mapOptions);
-
-      }
-
-      google.maps.event.addDomListener(window, 'load', initMap);
-  });*/
-
-
+  }
 
 });
